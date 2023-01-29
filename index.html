@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Task 01</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <span>Potencia</span>
+            <input type="radio" name="check" value="1" id="checkbox1" title="potency" onclick="checkSelect(this)">
+            <span>Área</span>
+            <input type="radio" name="check" value="2" id="checkbox2" title="area" onclick="checkSelect(this)">
+            
+            <br><br>
+            <span>Triangulo</span>
+            <input class="input" id="side-triangle" placeholder="Coloque un valor" type="text" title="title">
+          
+            <span>Resultado</span>
+            <span id="triangle"></span>
+         
+            <br><br>
+            <button class="btn" type="button" title="Calcular" onclick="calculateTriangle()">Calcular</button>
+
+            <div class="triangle"></div>
+        
+        </div>
+        <div class="card">
+            <span>Potencia</span>
+            <input type="radio" name="check" value="1" title="potency" onclick="checkSelect(this)">
+            <span>Área</span>
+            <input type="radio" name="check" value="2" title="area" onclick="checkSelect(this)">
+            
+            <br><br>
+            <span>Cuadrado</span>
+            <input class="input" id="side-square" placeholder="Coloque un valor" type="text" title="title">
+          
+            <span>Resultado</span>
+            <span id="square"></span>
+
+            <br><br>
+            <button class="btn" type="button" title="Calcular" onclick="calculateSquare()">Calcular</button>
+
+            <div class="square"></div>
+         
+        </div>
+        <div class="card">
+            <span>Potencia</span>
+            <input type="radio" name="check" value="1" title="potency" onclick="checkSelect(this)">
+            <span>Área</span>
+            <input type="radio" name="check" value="2" title="area" onclick="checkSelect(this)">
+            
+            <br><br>
+            <span>Rectángulo</span>
+            <br>
+            <span>Base</span>
+            <input class="input" id="base-rectangle" placeholder="Coloque un valor" type="text" title="title">
+            <br>
+            <span>Altura</span>
+            <input class="input" id="height-rectangle" placeholder="Coloque un valor" type="text" title="title">
+          
+            <span>Resultado</span>
+            <span id="rectangle"></span>
+
+            <br><br>
+            <button class="btn" type="button" title="Calcular" onclick="calculateRectangle()">Calcular</button>
+
+            <div class="rectangle"></div>
+        
+        </div>
+        <div class="card">
+            <span>Potencia</span>
+            <input type="radio" name="check" value="1" title="potency" onclick="checkSelect(this)">
+            <span>Área</span>
+            <input type="radio" name="check" value="2" title="area" onclick="checkSelect(this)">
+            
+            <br><br>
+            <span>Cuadrado</span>
+            <input class="input" id="radius" placeholder="Coloque un valor" type="text" title="title">
+          
+            <span>Resultado</span>
+            <span id="circle"></span>
+
+            <br><br>
+            <button class="btn" type="button" title="Calcular" onclick="calculateCircle()">Calcular</button>
+
+            <div class="circle"></div>
+        
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

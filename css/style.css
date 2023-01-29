@@ -1,0 +1,77 @@
+body {
+    margin: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container > .card {
+    width: 350px;
+    height: 450px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(178, 226, 247);
+    border-radius: 5px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.input {
+    margin: 15px;
+    width: 140px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(115, 120, 220);
+    color: white;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-right: 90px solid transparent;
+    border-top: 90px solid transparent;
+    border-left: 90px solid transparent;
+    border-bottom: 90px solid rgb(115, 120, 220);
+}
+
+.square {
+    width: 100px; 
+    height: 100px; 
+    margin: 75px 0 0 120px;
+    background: rgb(115, 120, 220);
+}
+
+.rectangle {
+    width: 250px; 
+    height: 100px; 
+    margin: auto;
+    border: 3px solid  rgb(115, 120, 220);
+    background: rgb(115, 120, 220);
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    margin: 75px 0 0 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:  rgb(115, 120, 220);
+}
